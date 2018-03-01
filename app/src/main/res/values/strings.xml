@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CustomerX</string>
+
+    <string name="progress_dialog_text_loading">Loading&#8230;</string>
+    <string name="progress_dialog_text_generating_survey">Generating Survey&#8230;</string>
+    <string name="progress_dialog_text_logging_out">Logging Out&#8230;</string>
+    <string name="progress_dialog_text_logging_in">Logging In&#8230;</string>
+    <string name="progress_dialog_text_please_wait">Please wait&#8230;</string>
+    <string name="progress_dialog_text_sending_request">Sending Request&#8230;</string>
+    <string name="progress_dialog_text_submitting_responses">Submitting Responses&#8230;</string>
+    <string name="progress_dialog_text_initializing">Initializing Application&#8230;</string>
+
+
+    <string name="please_enter_username">Please enter Username</string>
+    <string name="please_enter_password">Please enter Password</string>
+
+    <string name="dialog_text_enter_username">Please enter your registered Email ID</string>
+    <string name="dialog_text_enter_password">Please enter your password</string>
+
+
+    <string name="snackbar_action_go_to_settings">GO TO SETTINGS</string>
+    <string name="snackbar_action_dismiss">DISMISS</string>
+    <string name="snackbar_action_retry">RETRY</string>
+    <string name="snackbar_text_no_internet_connection_available">No Internet Connection available
+    </string>
+    <string name="snackbar_text_error_occurred">Error Occurred</string>
+    <string name="snackbar_text_exception_occurred">Exception Occurred</string>
+
+
+    <string name="activity_login_text_footer">\u00A9 RESULTIER INC (2017)</string>
+
+</resources>

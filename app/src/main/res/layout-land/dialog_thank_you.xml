@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#00000000"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/dialog_thank_you_bg"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Thank You"
+            android:id="@+id/tv1"
+            android:textColor="@color/primary_text2"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="your response has been recorded."
+            android:textColor="@color/primary_text2"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_marginTop="@dimen/activity_margin_extra_small"
+        />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp" android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/dialog_check_bg"
+        android:padding="@dimen/activity_margin_small"
+        android:src="@drawable/ic_check_green"
+    />
+
+
+</RelativeLayout>
